@@ -23,7 +23,7 @@ try {
   request = require('request');
   uuid = require('node-uuid');
   
-  slackToken = 'xoxb-62771732784-Pwt4kOCMiLSI21n4AAVUEQOW';
+  slackToken = '<YOUR_SLACK_TOKEN>';
   
   // if running from repo
   Wit = require('../').Wit;
